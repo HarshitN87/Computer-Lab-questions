@@ -14,23 +14,7 @@ int main()
             scanf("%d",&arr[u][ua]);
         }
     }
-    for(int k=0; k<row; k++) {
-
-        for(int y=0; y<col; y++) {
-
-
-
-            for(int ka=0; ka<row-1; ka++) {
-                if(arr[ka][y]<arr[ka+1][y]) {
-                    t=arr[ka][y];
-                    arr[ka][y]=arr[ka+1][y];
-                    arr[ka+1][y]=t;
-
-                }
-            }
-
-        }
-    }
+    
     for(int k=0; k<row; k++) {
 
         for(int y=0; y<col; y++) {
