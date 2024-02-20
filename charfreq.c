@@ -5,7 +5,8 @@ int main()
 {
     int t;
     char l[26] = {0};
-    char f[20] = "xxx gu8aaa ll p";
+    char f[20];
+    fgets(f);
     int k, arr[26] = {0};
     int w = 0, p, count = 0, i = 0, len;
     len = strlen(f);
